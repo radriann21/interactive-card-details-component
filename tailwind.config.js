@@ -28,7 +28,7 @@ module.exports = {
 				'card-back': 'url("/src/assets/bg-card-back.png")',
 				'bg-desktop': 'url("/src/assets/bg-main-desktop.png")',
 				'bg-mobile': 'url("/src/assets/bg-main-mobile.png")'
-			}
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

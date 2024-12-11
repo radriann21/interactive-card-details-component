@@ -18,6 +18,7 @@ export const creditCardStore = create<State & Action>((set) => ({
   monthNumber: '00',
   yearNumber: '00',
   CVC: '000',
-  updateCardHolderName: (cardHolderName) => set(() => ({ cardHolderName: cardHolderName }))
+  updateCardHolderName: (cardHolderName) => set(() => ({ cardHolderName: cardHolderName })),
+  updateCardNumber: (cardNumber: string) => set(() => ({ cardNumber: cardNumber })),
 }))
 

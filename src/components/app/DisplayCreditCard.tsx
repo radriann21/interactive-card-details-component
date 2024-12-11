@@ -1,3 +1,5 @@
+
+
 export const DisplayCreditCard = () => {
   return (
     <aside className="w-full md:w-[30%] bg-bg-mobile md:bg-bg-desktop bg-cover bg-no-repeat h-[280px] md:h-screen relative flex flex-col-reverse md:flex-col items-center justify-center md:gap-12">
@@ -6,7 +8,7 @@ export const DisplayCreditCard = () => {
         <div className="flex flex-col space-y-4 mt-6 md:mt-14 h-fit">
           <p className="text-white text-xl md:text-2xl text-left tracking-[0.2em] md:tracking-[8px]">444 444 444 444</p>
           <div className="mt-2 md:mt-8 w-full h-full flex items-center justify-between">
-            <span className="uppercase text-white font-mono text-sm">Felicia Leire</span>
+            <span className="uppercase text-white font-mono text-sm">Jane Appleseed</span>
             <span className="uppercase text-white font-mono text-sm">09/26</span>
           </div>
         </div>
