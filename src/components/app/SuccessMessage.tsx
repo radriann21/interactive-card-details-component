@@ -1,10 +1,11 @@
 import { Button } from "../ui/button"
+import iconComplete from '@/assets/icon-complete.svg'
 
 export const SuccessMessage = () => {
   return (
     <section className="w-full md:w-[380px] h-fit mt-20 md:mt-0">
       <div className="space-y-6">
-        <img className="mx-auto" src="/assets/icon-complete.svg" alt="sucess mark icon" />
+        <img className="mx-auto" src={iconComplete} alt="success mark icon" />
         <div className="text-center">
           <h2 className="text-3xl tracking-wider font-semibold uppercase text-neutral-very-dark-violet mb-4">Thank You!</h2>
           <p className="font-semibold text-neutral-dark-grayish-violet font-mono">We've added your card details</p>

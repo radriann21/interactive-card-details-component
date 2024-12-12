@@ -24,10 +24,10 @@ module.exports = {
 			},
 			backgroundImage: {
 				'gradient-main': 'linear-gradient(90deg, rgba(100,72,254,1) 0%, rgba(96,5,148,1) 35%);',
-				'card-front': 'url("/src/assets/bg-card-front.png")',
-				'card-back': 'url("/src/assets/bg-card-back.png")',
-				'bg-desktop': 'url("/src/assets/bg-main-desktop.png")',
-				'bg-mobile': 'url("/src/assets/bg-main-mobile.png")'
+				'card-front': 'url("./assets/bg-card-front.png")',
+				'card-back': 'url("./assets/bg-card-back.png")',
+				'bg-desktop': 'url("./assets/bg-main-desktop.png")',
+				'bg-mobile': 'url("./assets/bg-main-mobile.png")'
 			},
 		}
 	},
