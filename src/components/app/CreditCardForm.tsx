@@ -7,13 +7,8 @@ export const CreditCardForm = () => {
     updateField,
     handleNumericInput,
     validateForm,
-    errors,
     setIsSubmitted,
-    cardHolderName,
-    cardNumber,
-    expireMonth,
-    expireYear,
-    CVC
+    errors,
   } = useCreditCardStore()
 
   const formatCardNumber = (value: string) => {
@@ -69,7 +64,6 @@ export const CreditCardForm = () => {
           Cardholder Name
         </label>
         <input
-          value={cardHolderName}
           onChange={handleNameInput}
           className={getInputClassName('cardHolderName')}
           type="text"
@@ -85,7 +79,6 @@ export const CreditCardForm = () => {
           Card Number
         </label>
         <input
-          value={cardNumber}
           onChange={handleCardNumberInput}
           className={getInputClassName('cardNumber')}
           type="text"
@@ -105,7 +98,6 @@ export const CreditCardForm = () => {
           <div className="w-[100%] flex items-center space-x-2">
             <div className="w-full">
               <input
-                value={expireMonth}
                 onChange={handleMonthInput}
                 className={getInputClassName('expireMonth')}
                 type="text"
@@ -118,7 +110,6 @@ export const CreditCardForm = () => {
             </div>
             <div className="w-full">
               <input
-                value={expireYear}
                 onChange={(evt) => handleNumericInput('expireYear', evt)}
                 className={getInputClassName('expireYear')}
                 type="text"
@@ -137,7 +128,6 @@ export const CreditCardForm = () => {
             CVC
           </label>
           <input
-            value={CVC}
             onChange={(evt) => handleNumericInput('CVC', evt)}
             className={getInputClassName('CVC')}
             type="text"
